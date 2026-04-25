@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+
+}
+
+body {
+    padding: 5%;
+}
+
+main {
+    max-width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius:  30px;
+    padding: 3%
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(207, 207, 207);
+}
+
+section {
+    margin: 10%;
+    background-color: black;
+    font-size: 25px;
+    border-radius: 20px;
+    padding: 20px;
+    color: rgb(226, 226, 226);
+    text-align: center;
+}
+
+.active-tab {
+    color: black;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+}
