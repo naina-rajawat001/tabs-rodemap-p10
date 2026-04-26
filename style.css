@@ -45,3 +45,11 @@ section {
     text-decoration-thickness: 3px;
     text-underline-offset: 10px;
 }
+
+@media only screen and (max-width: 950px) {
+
+    main {
+       max-width: 95%;
+       margin: 25% auto;
+    }
+}
